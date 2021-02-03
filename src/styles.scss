@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'node_modules/bootstrap/scss/bootstrap';
+body {
+    line-height: 1;
+  }
+  
+  body,
+  app-header .navbar,
+  app-table .container--table,
+  ngb-tabset .nav-link.active,
+  ngb-tabset .tab-content {
+    transition: background-color 0.5s ease-in-out;
+  }
